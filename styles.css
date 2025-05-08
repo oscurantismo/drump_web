@@ -1,4 +1,7 @@
-
+a {
+    text-decoration: none;
+}
+  
 .telegram-button-icon {
     position: absolute;
     top: 47px;
@@ -38,7 +41,7 @@
     left: 484px;
 }
 .how-to-play {
-    position: absolute;
+    position: relative;
     top: 22px;
     left: 590px;
 }
@@ -123,7 +126,7 @@
     left: 44px;
     box-shadow: var(--box-shadow);
     border-radius: 8px;
-    background-color: #293391;
+    background-color: #F6020F;
     border: 2px solid #000;
     box-sizing: border-box;
     width: 160px;
@@ -172,127 +175,7 @@
     width: 396px;
     height: 74px;
 }
-.our-journey-ahead-section {
-    position: relative;
-    width: 100%;
-    height: 850px;
-    background: #fff3c2;
-    font-family: 'Negrita Pro', sans-serif;
-  }
-  
-  .our-journey-title {
-    text-align: center;
-    background: #FFCC00;
-    color: #000;
-    font-size: 28px;
-    border: 2px solid #000;
-    padding: 12px 32px;
-    display: inline-block;
-    border-radius: 10px;
-    margin: 40px auto;
-    box-shadow: 2px 2px 0 #000;
-  }
-  
-  .timeline-container {
-    position: relative;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    height: 100%;
-  }
-  
-  .timeline-line {
-    position: absolute;
-    left: 50%;
-    top: 60px;
-    bottom: 60px;
-    width: 4px;
-    background: #000;
-    transform: translateX(-50%);
-  }
-  
-  .timeline-step {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .step-circle {
-    width: 44px;
-    height: 44px;
-    background: #fff;
-    border: 3px solid #000;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 16px;
-    color: #000;
-    z-index: 2;
-    box-shadow: 2px 2px 0 #000;
-  }
-  
-  .connector {
-    position: absolute;
-    top: 50%;
-    width: 80px;
-    height: 0;
-    border-top: 2px dashed #000;
-    transform: translateY(-50%);
-  }
-  
-  .dashed-left {
-    left: calc(50% - 44px);
-  }
-  
-  .dashed-right {
-    right: calc(50% - 44px);
-  }
-  
-  .step-box {
-    position: absolute;
-    width: 280px;
-    background: #fff;
-    border: 2px solid #000;
-    border-radius: 10px;
-    box-shadow: 2px 2px 0 #000;
-    font-weight: normal;
-    line-height: 1.4;
-  }
-  
-  .step-box.left {
-    left: 40px;
-  }
-  
-  .step-box.right {
-    right: 40px;
-  }
-  
-  .box-header {
-    font-size: 16px;
-    color: #fff;
-    padding: 8px 16px;
-    border-bottom: 2px solid #000;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-  }
-  
-  .box-body {
-    font-size: 14px;
-    color: #000;
-    padding: 12px 16px;
-    font-weight: normal;
-  }
-  
-  /* Color styles */
-  .red .box-header {
-    background: #f6020f;
-  }
-  
-  .blue .box-header {
-    background: #2a3493;
-  }
+
   
   
 .weekly-tournaments {
@@ -312,18 +195,7 @@
     display: inline-block;
     width: 342px;
 }
-.ellipse-div {
-    position: absolute;
-    top: 326px;
-    left: 592px;
-    box-shadow: var(--box-shadow);
-    border-radius: 50%;
-    background-color: #ffebb5;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 76px;
-    height: 76px;
-}
+
 .div {
     position: absolute;
     top: 349px;
@@ -383,46 +255,7 @@
     display: inline-block;
     width: 342px;
 }
-.our-journey-ahead-section-child11 {
-    position: absolute;
-    top: 727px;
-    left: 592px;
-    box-shadow: var(--box-shadow);
-    border-radius: 50%;
-    background-color: #ffebb5;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 76px;
-    height: 76px;
-}
-.our-journey-ahead-section-child12 {
-    position: absolute;
-    top: 564px;
-    left: 900px;
-    box-shadow: var(--box-shadow);
-    border-radius: 50%;
-    background-color: #ffebb5;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 76px;
-    height: 76px;
-    transform:  rotate(-180deg);
-    transform-origin: 0 0;
-}
-.our-journey-ahead-section-child13 {
-    position: absolute;
-    top: 965px;
-    left: 900px;
-    box-shadow: var(--box-shadow);
-    border-radius: 50%;
-    background-color: #ffebb5;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 76px;
-    height: 76px;
-    transform:  rotate(-180deg);
-    transform-origin: 0 0;
-}
+
 .div1 {
     position: absolute;
     top: 750px;
@@ -453,24 +286,7 @@
     width: 34px;
     height: 5px;
 }
-.our-journey-ahead-section-child14 {
-    position: absolute;
-    top: 1034.5px;
-    left: 728.5px;
-    border-top: 5px solid #000;
-    box-sizing: border-box;
-    width: 34px;
-    height: 5px;
-}
-.our-journey-ahead-section {
-    position: absolute;
-    top: 2416px;
-    left: -31px;
-    width: 1515px;
-    height: 1141px;
-    text-align: center;
-    font-size: 34px;
-}
+
 .scroller-bar-child {
     position: absolute;
     top: 0px;
@@ -519,7 +335,7 @@
 }
 .scroller-bar1 {
     position: absolute;
-    top: 2393px;
+    top: 2372px;
     left: 0px;
     width: 1440px;
     height: 46px;
@@ -828,6 +644,24 @@
     width: 1251px;
     height: 233px;
 }
+
+.footer-inner a,
+.footer-child1 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: auto;
+    margin-top: 9px;
+  }
+  
+
 .join-our-telegram {
     position: absolute;
     top: 39px;
@@ -1130,3 +964,417 @@
     font-family: 'Negrita Pro';
 }
 
+.our-journey-ahead-section-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1515px;
+    height: 1141px;
+    object-fit: cover;
+}
+.our-journey-ahead-section-item {
+    position: absolute;
+    top: 85px;
+    left: 434px;
+    box-shadow: 4px 4px 0px #000;
+    border-radius: 12px;
+    background-color: #f8ba18;
+    border: 3px solid #000;
+    box-sizing: border-box;
+    width: 623px;
+    height: 102px;
+}
+.journey-title {
+    top: 112px;
+    left: 492px;
+    font-size: 58px;
+    text-align: left;
+    position: absolute;
+    color: #000;
+}
+.our-journey-ahead-section-inner {
+    position: absolute;
+    top: 280px;
+    left: 164px;
+    box-shadow: 5px 5px 0px #000;
+    border-radius: 13px;
+    background-color: #ffebb5;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 396px;
+    height: 171px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 280px;
+    left: 164px;
+    border-radius: 13px 13px 0px 0px;
+    background-color: #293391;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 396px;
+    height: 74px;
+}
+.our-journey-ahead-section-child1 {
+    position: absolute;
+    top: 681px;
+    left: 164px;
+    box-shadow: 5px 5px 0px #000;
+    border-radius: 13px;
+    background-color: #ffebb5;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 396px;
+    height: 171px;
+}
+.our-journey-ahead-section-child2 {
+    position: absolute;
+    top: 439px;
+    left: 933px;
+    box-shadow: 5px 5px 0px #000;
+    border-radius: 13px;
+    background-color: #ffebb5;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 396px;
+    height: 171px;
+}
+.our-journey-ahead-section-child3 {
+    position: absolute;
+    top: 840px;
+    left: 933px;
+    box-shadow: 5px 5px 0px #000;
+    border-radius: 13px;
+    background-color: #ffebb5;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 396px;
+    height: 171px;
+}
+.line-icon {
+    position: absolute;
+    top: 250px;
+    left: 746px;
+    width: 0px;
+    height: 787px;
+    object-fit: contain;
+}
+.our-journey-ahead-section-child4 {
+    position: absolute;
+    top: 525px;
+    left: 747px;
+    max-height: 100%;
+    width: 130px;
+    object-fit: contain;
+}
+.our-journey-ahead-section-child5 {
+    position: absolute;
+    top: 366px;
+    left: 616px;
+    max-height: 100%;
+    width: 130px;
+}
+.our-journey-ahead-section-child6 {
+    position: absolute;
+    top: 926px;
+    left: 747px;
+    max-height: 100%;
+    width: 130px;
+    object-fit: contain;
+}
+.weekly-tournaments {
+    position: absolute;
+    top: 300px;
+    left: 129px;
+    color: #fff;
+    display: inline-block;
+    width: 465px;
+}
+.battle-it-out {
+    position: absolute;
+    top: 370px;
+    left: 191px;
+    font-size: 26px;
+    line-height: 32px;
+    display: inline-block;
+    width: 342px;
+}
+.ellipse-div {
+    position: absolute;
+    top: 326px;
+    left: 592px;
+    box-shadow: 4px 4px 0px #000;
+    border-radius: 50%;
+    background-color: #ffebb5;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 76px;
+    height: 76px;
+    z-index: 10;
+}
+
+.ellipse-number {
+    font-size: 24px;
+    line-height: 76px;
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    z-index: 1;
+}
+  
+
+.div {
+    position: absolute;
+    top: 349px;
+    left: 397px;
+    display: inline-block;
+    width: 465px;
+}
+.our-journey-ahead-section-child7 {
+    position: absolute;
+    top: 681px;
+    left: 164px;
+    border-radius: 13px 13px 0px 0px;
+    background-color: #f6020f;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 396px;
+    height: 74px;
+}
+.our-journey-ahead-section-child8 {
+    position: absolute;
+    top: 439px;
+    left: 933px;
+    border-radius: 13px 13px 0px 0px;
+    background-color: #f6020f;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 396px;
+    height: 74px;
+}
+.our-journey-ahead-section-child9 {
+    position: absolute;
+    top: 840px;
+    left: 933px;
+    border-radius: 13px 13px 0px 0px;
+    background-color: #293391;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 396px;
+    height: 74px;
+}
+.our-journey-ahead-section-child10 {
+    position: absolute;
+    top: 767px;
+    left: 616px;
+    max-height: 100%;
+    width: 130px;
+}
+.partnerships {
+    position: absolute;
+    top: 701px;
+    left: 129px;
+    color: #fff;
+    display: inline-block;
+    width: 465px;
+}
+.earn-rewards {
+    position: absolute;
+    top: 461px;
+    left: 898px;
+    color: #fff;
+    display: inline-block;
+    width: 465px;
+}
+.nft-skins {
+    position: absolute;
+    top: 860px;
+    left: 898px;
+    color: #fff;
+    display: inline-block;
+    width: 465px;
+}
+.collaborating-with-top {
+    position: absolute;
+    top: 769px;
+    left: 191px;
+    font-size: 26px;
+    line-height: 32px;
+    display: inline-block;
+    width: 342px;
+}
+.earn-and-use {
+    margin: 0;
+}
+.earn-and-use-container {
+    position: absolute;
+    top: 527px;
+    left: 960px;
+    font-size: 26px;
+    line-height: 32px;
+    display: inline-block;
+    width: 342px;
+}
+.unlock-unique-characters {
+    position: absolute;
+    top: 929px;
+    left: 960px;
+    font-size: 26px;
+    line-height: 32px;
+    display: inline-block;
+    width: 342px;
+}
+.our-journey-ahead-section-child11 {
+    position: absolute;
+    top: 727px;
+    left: 592px;
+    box-shadow: 4px 4px 0px #000;
+    border-radius: 50%;
+    background-color: #ffebb5;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 76px;
+    height: 76px;
+}
+.our-journey-ahead-section-child12 {
+    position: absolute;
+    top: 564px;
+    left: 900px;
+    box-shadow: 4px 4px 0px #000;
+    border-radius: 50%;
+    background-color: #ffebb5;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 76px;
+    height: 76px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+}
+.our-journey-ahead-section-child13 {
+    position: absolute;
+    top: 965px;
+    left: 900px;
+    box-shadow: 4px 4px 0px #000;
+    border-radius: 50%;
+    background-color: #ffebb5;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 76px;
+    height: 76px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+}
+.div1 {
+    position: relative;
+    top: 750px;
+    left: 397px;
+    display: inline-block;
+    width: 465px;
+}
+.div2 {
+    position: relative;
+    top: 510px;
+    left: 628px;
+    display: inline-block;
+    width: 465px;
+}
+.div3 {
+    position: relative;
+    top: 911px;
+    left: 628px;
+    display: inline-block;
+    width: 465px;
+}
+.line-div {
+    position: absolute;
+    top: 252.5px;
+    left: 728.5px;
+    border-top: 5px solid #000;
+    box-sizing: border-box;
+    width: 34px;
+    height: 5px;
+}
+.our-journey-ahead-section-child14 {
+    position: relative;
+    top: 1034.5px;
+    left: 728.5px;
+    border-top: 5px solid #000;
+    box-sizing: border-box;
+    width: 34px;
+    height: 5px;
+}
+.our-journey-ahead-section {
+    padding: 120px 0;
+    z-index: 1;   
+    position: absolute;
+    top: 2416px;
+    left: -31px;
+    width: 1515px;
+    height: 1141px;
+    text-align: center;
+    font-size: 34px;
+}
+
+.vertical-connector {
+    position: absolute;
+    top: 250px;
+    left: 728px;
+    height: 787px;
+    border-left: 5px solid #000;
+    z-index: 0;
+  }
+  
+  /* Horizontal dashed lines */
+  .connector-horizontal {
+    position: absolute;
+    height: 0;
+    border-top: 5px dashed #000;
+    z-index: 0;
+  }
+  
+  /* Left connectors */
+  .connector-1 {
+    top: 364px;
+    left: 592px;
+    width: 136px; /* 728 - 592 */
+  }
+  .connector-3 {
+    top: 765px;
+    left: 592px;
+    width: 136px;
+  }
+  
+  /* Right connectors */
+  .connector-2 {
+    top: 523px;
+    left: 728px;
+    width: 136px; /* 900 - 728 */
+  }
+  .connector-4 {
+    top: 924px;
+    left: 728px;
+    width: 136px;
+  }
+
+.ellipse-1 {
+    top: 326px;
+    left: 592px;
+}
+
+.ellipse-3 {
+    top: 727px;
+    left: 592px;
+}
+
+.ellipse-2 {
+    top: 485px;
+    left: 812px; /* changed from 900px */
+}
+  
+.ellipse-4 {
+    top: 886px;
+    left: 820px; /* changed from 900px */
+}
+  
+  
