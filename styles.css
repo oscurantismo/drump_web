@@ -780,196 +780,30 @@ a {
 }
 .footer {
     position: absolute;
-    top: 4461px;
+    top: 3561px;
     left: -29px;
     width: 1515px;
-    height: 884px;
+    height: 854px;
     font-size: 50px;
-}
-.faq-section-child {
-    position: absolute;
-    top: 0px;
-    left: 242px;
-    box-shadow: var(--box-shadow);
-    border-radius: 12px;
-    background-color: #ffebb5;
-    border: 3px solid #000;
-    box-sizing: border-box;
-    width: 623px;
-    height: 102px;
-}
-.faq-drump {
-    position: absolute;
-    top: 27px;
-    left: 283px;
-    font-size: 58px;
-    white-space: pre-wrap;
-}
-.faq-section-item {
-    position: absolute;
-    top: 215px;
-    left: 0px;
-    box-shadow: var(--box-shadow);
-    border-radius: 13px;
-    background-color: #ffebb5;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 1040px;
-    height: 79px;
-}
-.faq-section-inner {
-    position: absolute;
-    top: 459px;
-    left: 0px;
-    box-shadow: var(--box-shadow);
-    border-radius: 13px;
-    background-color: #ffebb5;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 1040px;
-    height: 79px;
-}
-.faq-section-child1 {
-    position: absolute;
-    top: 555px;
-    left: 0px;
-    box-shadow: var(--box-shadow);
-    border-radius: 13px;
-    background-color: #ffebb5;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 1040px;
-    height: 79px;
-}
-.faq-section-child2 {
-    position: absolute;
-    top: 307px;
-    left: 0px;
-    border-radius: 13px;
-    background-color: #ffe99b;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 1040px;
-    height: 136px;
-}
-.faq-section-child3 {
-    position: absolute;
-    top: 215px;
-    left: 1061px;
-    box-shadow: var(--box-shadow);
-    border-radius: 13px;
-    background-color: #ffebb5;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 79px;
-    height: 79px;
-}
-.faq-section-child4 {
-    position: absolute;
-    top: 459px;
-    left: 1061px;
-    box-shadow: var(--box-shadow);
-    border-radius: 13px;
-    background-color: #ffebb5;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 79px;
-    height: 79px;
-}
-.faq-section-child5 {
-    position: absolute;
-    top: 555px;
-    left: 1061px;
-    box-shadow: var(--box-shadow);
-    border-radius: 13px;
-    background-color: #ffebb5;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 79px;
-    height: 79px;
-}
-.is-it-free-container {
-    position: absolute;
-    top: 239px;
-    left: 34px;
-    display: inline-block;
-    width: 487px;
-}
-.lorem-ipsum-dolor {
-    position: absolute;
-    top: 327px;
-    left: 40px;
-    font-size: 24px;
-    display: inline-block;
-    width: 981px;
-}
-.how-can-i-container {
-    position: absolute;
-    top: 483px;
-    left: 34px;
-    display: inline-block;
-    width: 595px;
-}
-.do-i-need-container {
-    position: absolute;
-    top: 578px;
-    left: 34px;
-    display: inline-block;
-    width: 722px;
-}
-.bxsup-arrow-icon {
-    position: absolute;
-    top: 235px;
-    left: 1081px;
-    width: 40px;
-    height: 40px;
-    overflow: hidden;
-    object-fit: contain;
-}
-.bxsup-arrow-icon1 {
-    position: absolute;
-    top: 479px;
-    left: 1081px;
-    width: 40px;
-    height: 40px;
-    overflow: hidden;
-    object-fit: contain;
-}
-.bxsup-arrow-icon2 {
-    position: absolute;
-    top: 574px;
-    left: 1081px;
-    width: 40px;
-    height: 40px;
-    overflow: hidden;
-    object-fit: contain;
-}
-.faq-section {
-    position: absolute;
-    top: 3665px;
-    left: 151px;
-    width: 1140px;
-    height: 634px;
-    font-size: 32px;
+    z-index: 90;
 }
 .desktop-1 {
     width: 100%;
     position: relative;
     background-color: #f8ba18;
-    height: 4741px;
+    height: 3821px;
     overflow: hidden;
     text-align: left;
     font-size: 24px;
     color: #000;
     font-family: 'Negrita Pro';
 }
-
 .our-journey-ahead-section-child {
     position: absolute;
     top: 0px;
     left: 0px;
     width: 1515px;
-    height: 1141px;
+    height: 1111px;
     object-fit: cover;
 }
 .our-journey-ahead-section-item {
@@ -1305,13 +1139,13 @@ a {
     height: 5px;
 }
 .our-journey-ahead-section {
-    padding: 120px 0;
+    padding: 90px 0;
     z-index: 1;   
     position: absolute;
     top: 2416px;
     left: -31px;
     width: 1515px;
-    height: 1141px;
+    height: 841px;
     text-align: center;
     font-size: 34px;
 }
