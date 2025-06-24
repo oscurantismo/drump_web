@@ -1,0 +1,207 @@
+/* === Responsive Tweaks === */
+@media (max-width: 868px) {
+  /* Main Header Section */
+  .main-heading {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .image-icon {
+    width: 70vw;
+  }
+
+  .punch-drump-tap-container {
+    padding: 20px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .a-crazy-tap-to-earn {
+    font-size: 18px;
+    line-height: 28px;
+  }
+	
+	.scroller-bar {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		height: 25px;
+	}
+
+  /* How to Play Section */
+  .card-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .how-to-play-section-child1 {
+    width: 60vw;
+	  max-width: 60vw;
+  }
+
+  /* About the Game Section */
+  .about-content {
+    flex-direction: column-reverse;
+    align-items: center;
+	  justify-content: center;
+    gap: 60px;
+  }
+
+  .about-image img {
+    width: 60vw;
+  }
+
+  .about-text {
+	  max-width: 80vw;
+	  justify-content: center;
+	  align-items: center;
+  }
+
+  .highlight-banner {
+    font-size: 18px;
+    padding: 10px 16px;
+    text-align: center;
+	  width: 80vw;
+  }
+
+  /* Journey Section */
+	
+	.journey-section {
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 70px;
+		margin: 0;
+	}
+  .journey-steps {
+	  display: flex;
+	  flex-direction: column;
+    align-items: center;
+	  justify-content: center;
+  }
+	
+	.journey-row {
+		display: flex;
+		flex-direction: row;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.card-body {
+		font-size: 14px;
+		width: 100%;
+	}
+	
+	.card-header {
+		font-size: 18px;
+		width: 100%;
+	}
+	.journey-card {
+		z-index: 99;
+	}
+	
+	.journey-line {
+		display: none;
+	}
+	
+	.journey-title {
+		font-size: 26px;
+		max-width: 60vw;
+		text-align: center;
+	}
+	
+	
+  /* Footer Section */
+  .footer-section {
+	  max-width: 80vw;
+    flex-direction: column;
+	  align-items: flex-start;
+    padding: 20px;
+    gap: 24px;
+    margin: 40px auto 20px auto;
+  }
+
+  .footer-left {
+    max-width: 100%;
+  }
+	
+	.footer-subtext {
+		font-size: 16px;
+	}
+
+  .footer-icons {
+    gap: 12px;
+  }
+
+  .footer-qr-group {
+    flex-direction: column;
+    align-items: center;
+	  justify-content: center;
+    gap: 12px;
+  }
+
+  .footer-qr {
+    width: 260px;
+    height: 260px;
+  }
+
+  .qr-label-skew {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+	
+	.scroller-bar1 {
+		flex-wrap: wrap;
+		height: 25px;
+	}
+
+  /* Navigation Bar */
+   .top-navigation-bar {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
+    max-width: 80vw;
+    margin: 20px auto;
+  }
+	
+	  .top-navigation-bar a[href*="t.me"],
+  .top-navigation-bar a[href*="x.com"] {
+    order: 3;
+    flex: 0 60%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .top-navigation-bar .drump-punch {
+    flex-basis: 100%;
+    text-align: center;
+    order: 1;
+  }
+
+  .top-navigation-bar .home,
+  .top-navigation-bar .how-to-play,
+  .top-navigation-bar .leaderboard,
+  .top-navigation-bar .reward,
+  .top-navigation-bar .faq {
+    order: 2;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .top-navigation-bar a {
+    order: 3;
+    flex-grow: 0;
+  }
+
+  .telegram-button-icon,
+  .x-button-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
